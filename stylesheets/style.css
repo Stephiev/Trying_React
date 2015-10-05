@@ -1,0 +1,31 @@
+h1, p {
+  text-align: center;
+  margin: 10px;
+}
+#display {
+  margin: auto;
+  height: 350px;
+  width: 350px;
+  background-color: #eee;
+  border: 10px #333 solid;
+  border-radius: 5px;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  border: 3px black solid;
+  border-radius: 5px 5px 70px 70px;
+  height: 750px;
+}
+
+#blue {
+height:75px;
+width:75px;
+border-color:#6495ED;
+border-radius:50%;
+background-color:#BCD2EE;
+margin:auto;
+margin-top: 10px;
+text-align:center
+}

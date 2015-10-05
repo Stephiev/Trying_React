@@ -4,7 +4,7 @@ var Header = React.createClass({
   render: function() {
     return(
       <header>
-        <h1>Pokedex</h1>
+        <h1>Your Pokedex</h1>
       </header>
     )
   }
