@@ -1,0 +1,32 @@
+{
+  "name": "reactStuff",
+  "version": "1.0.0",
+  "description": "React front end for pokemon API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stephiev/Trying_React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Stephiev/Trying_React/issues"
+  },
+  "homepage": "https://github.com/Stephiev/Trying_React",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "superagent": "^1.4.0"
+  }
+}
